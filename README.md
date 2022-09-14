@@ -1,1 +1,2 @@
-# leren-programmeren
+# kapsalon
+git add .
