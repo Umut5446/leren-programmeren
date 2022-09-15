@@ -1,2 +1,1 @@
 # kapsalon
-git add .
