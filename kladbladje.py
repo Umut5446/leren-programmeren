@@ -17,4 +17,11 @@ minuten = int(minuten_string)
 
 print(minuten_string)
 
+
+# vraag console of pc
+# bereken prijs pc 45 Euro
+# consoles 55 Euro
+
+vraag = "Wat gebruik je console of pc?"
+
  
