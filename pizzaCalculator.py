@@ -17,7 +17,7 @@ print(f'De prijs is {totaal_prijs}')
 
 print('------------------------------------------------------------------------------------------------------------')
 print('Pizza Rossum')
-print(f'Pizza_small_prijs * Pizza_small_aantal:             {Pizza_small_prijs * Pizza_small_aantal}')
+print(f' {Pizza_small_aantal} kleine pizza :             {Pizza_small_prijs * Pizza_small_aantal}')
 print(f'Pizza_medium_prijs * Pizza_medium_aantal:           {Pizza_medium_prijs * Pizza_medium_aantal}')
 print(f'Pizza_medium_pijs * Pizza_large_aantal:             {Pizza_large_prijs * Pizza_large_aantal}')
 print(f'totaal_prijs:                                       {totaal_prijs}')
