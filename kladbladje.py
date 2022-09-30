@@ -1,27 +1,25 @@
- #vraag de tijd in uren en minuten
-# en print: Dan duurt de dag nog x uur en y minuten
+#  #vraag de tijd in uren en minuten
+# # en print: Dan duurt de dag nog x uur en y minuten
 
-vraag = "Hoe laat is het in uren?"
-uren_string = input(vraag)
+# vraag = "Hoe laat is het in uren?"
+# uren_string = input(vraag)
 
-uren = int(uren_string)
+# uren = int(uren_string)
 
-print(uren_string)
+# print(uren_string)
 
-#print(f"Dan duurt het nog {23 - uren} uur en {60 - minuten} minuten voordat de dag voorbij is.")
+# #print(f"Dan duurt het nog {23 - uren} uur en {60 - minuten} minuten voordat de dag voorbij is.")
 
-vraag = "Hoe laat is het in minuten?"
-minuten_string = input(vraag)
+# vraag = "Hoe laat is het in minuten?"
+# minuten_string = input(vraag)
 
-minuten = int(minuten_string)
+# minuten = int(minuten_string)
 
-print(minuten_string)
-
-
-# vraag console of pc
-# bereken prijs pc 45 Euro
-# consoles 55 Euro
-
-vraag = "Wat gebruik je console of pc?"
-
- 
+# print(minuten_string)
+#  #############################
+a = 3
+if a == 8:
+    b = 5
+print(a)
+if b == 5:
+    print('Ik ben Umut')
