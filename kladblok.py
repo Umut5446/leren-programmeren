@@ -93,7 +93,7 @@
 #         return True
 #     elif letter == 'c':
 #         return False 
-
+###########################################################################
 # a = 'Jan'
 # b = 'Umut'
 # c = 'Yassine'
@@ -117,23 +117,33 @@
 # conditie = voorwaarde
 # expressie = berekenen
 ###################################################################################
-bedrag = int(input('Voer bedrag centen in :')) * 100
+# bedrag = int(input('Voer bedrag centen in :')) * 100
  
-euro_2 = bedrag // 200
-print(f'aantal 2 euro: {euro_2}')
-restant = bedrag - euro_2 * 200
+# euro_2 = bedrag // 200
+# print(f'aantal 2 euro: {euro_2}')
+# restant = bedrag - euro_2 * 200
 
-euro_1 = restant // 100
-print(f'aantal 1 euro: {euro_1}')
-restant = restant - 100 * euro_1
- 
-
-euro_50 = restant // 50
-print(f'aantal 50 cent: {euro_50}')
-restant = restant - 50 * euro_50
+# euro_1 = restant // 100
+# print(f'aantal 1 euro: {euro_1}')
+# restant = restant - 100 * euro_1
  
 
-euro_25 = restant // 25
-print(f'aantal 25 cent: {euro_25}')
-restant = restant - 25 * euro_25
+# euro_50 = restant // 50
+# print(f'aantal 50 cent: {euro_50}')
+# restant = restant - 50 * euro_50
  
+
+# euro_25 = restant // 25
+# print(f'aantal 25 cent: {euro_25}')
+# restant = restant - 25 * euro_25
+#######################################################################################
+leeftijd = int(input('Hoe oud bent u?'))
+if leeftijd >= 18:
+    rijbewijs = input('Heeft u al een rijbewijs')
+    if rijbewijs == 'ja':
+        print('U mag auto gaan rijden.')
+    elif rijbewijs == 'nee':
+        print('U mag niet gaan rijden.')
+
+else:
+    print('U mag niet gaan rijden.')
