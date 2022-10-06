@@ -10,12 +10,19 @@ elif actie == 'o':
    antwoord = getal1 + getal2
 elif actie == 'v':
   zin = 'vermenigvuldigen'
+  antwoord = getal1 * getal2
+elif actie == 'd':
+     if getal2 == 0:
+        zin = 'je deelt door 0 '
 elif actie == 'k':
     if getal1 > getal2:
       zin = 'volgorde(k):'  + str(getal2) + ' , ' + str(getal1) 
 else:
-        zin = 'volgorde(k):' + str(getal1) + ' , ' + str(getal2)       
+        zin = 'volgorde(k):' + str(getal1) + ' , ' + str(getal2)    
+else:
+        zin = 'volgorde(g):' + str(getal1) + ' , ' + str(getal2)
 
-        print(zin)
+
+    print(zin)
 if actie != 'k' and actie != 'g':
    print(antwoord)

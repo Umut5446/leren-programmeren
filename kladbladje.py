@@ -78,24 +78,27 @@
 # while x < 10:
 #     print(x) # Ik weet nog niet hoevaak # eindeloze loop
 
-# while True:
-#     try:
-#         getal = int(input('Voer een getal!'))
-#         break
-#     except: ValueError
-#     print('Waarschijnlijk begreep je me niet, maar ik bedoelde een geta;l zoals 6')
+while True:
+    try:
+        getal = int(input('Voer een getal!'))
+        break
+    except: ValueError
+    print('Waarschijnlijk begreep je me niet, maar ik bedoelde een getal zoals 6')
 ##########################################################################################################
-x = 100
+# x = 100
 
-while x > 0:
-    x -= 1 
+# while x > 0:
+#     x -= 1 
 
-    print(x, 'bottles of beer on the wall', x, 'bottles of beer on the wall.')
-    print('Take one down and pass it around', {x-1}, 'bottles of beer on the wall')
-    
-    print('Take one down and pass it around, no more bottles of beer on the wall.')
-    print('No more bottles of beer on the wall, no more bottles of beer.')
-    print('Go to the store and buy some more, 99 bottles of beer on the wall')
+#     print(x, 'bottles of beer on the wall', x, 'bottles of beer on the wall.')
+#     print('Take one down and pass it around', {x-1}, 'bottles of beer on the wall')
+#     print()
+   
+#     print('1 bottle of beer on the wall, 1 bottle of beer.')
+#     print('Take one down and pass it around, no more bottles of beer on the wall.')
+#     print()    
+#     print('No more bottles of beer on the wall, no more bottles of beer.')
+#     print('Go to the store and buy some more, 99 bottles of beer on the wall')
 
 
     

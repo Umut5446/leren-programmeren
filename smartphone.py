@@ -1,7 +1,4 @@
 
-from ast import AnnAssign
-
-
 Iphone_13_prijs = int(input(f'Hoe duur is de Iphone?'))
 Samsung_Galaxy_S22_prijs = int(input(f'hoe duur is de Samsung Galaxy S22?'))
 
@@ -24,7 +21,4 @@ if aankoop_prijs - niet_prijs > 0:
 else:
     goedkoper_duurder = 'goedkoper'
 
-print(f'Het advies is dus de {advies} te kopen. Deze is namelijk {aankoop_prijs}')
-
-
-
+print(f'Het advies is dus de {advies} te kopen. Deze is namelijk {aankoop_prijs} {goedkoper_duurder} dan de ')
