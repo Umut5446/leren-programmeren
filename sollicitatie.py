@@ -1,8 +1,15 @@
-name = 'Umut'
+from msilib.schema import Error
+
+
+name = input('Hoe heet je?')
+if name == 'Kas':
+    raise NameError('Kas is hier niet toegestaan!')
 diploma = input('Heb je een bezit van een Diploma MBO-4 ondernemen? J/N')
 rijbewijs = input('Heb je een bezit van een vrachtwagen rijbewijs? J/N')
 hoed = input('Bezit u een hoge hoed? J/N')
 geslacht = input('wat is uw geslacht, man of vrouw?')
+if geslacht == 'non binary':
+    raise NameError('non binary is geen geslacht!')
 snor_breedte = 0
 haar = 0
 if geslacht == 'man':
@@ -16,6 +23,8 @@ lichaamslengte = int(input('Wat is uw netto lichaamslente in hele cm, dus exclus
 gewicht = int(input('Wat is uw lichaamsgewicht in hele kg?'))
 certificaat = input('Heeft u een certificaat: Overleven met gevaarlijk personeel? J/N')
 ervaring = input('Met welke van de drie heeft u praktijkervaring? kies uit dieren_dresuur, jongleren of acrobatiek.')
+if ervaring == 'geen':
+    raise NameError('Waarom solliciteer je als je geen ervaring heb!')
 dieren_dresuur = 0
 jongleren = 0
 acrobatiek = 0
