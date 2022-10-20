@@ -24,17 +24,17 @@
 # if b == 5:
 #     print('Ik ben Umut')
 ##########################################################
-# zin = 'hallo wereld'
-# x = 0
+zin = 'hallo wereld'
+x = 0
 
-# for karakter in zin:
-#     print(karakter)
+for karakter in zin:
+    print(karakter)
 
-# for c in (0,1,2): # 3 rondjes
-#     for d in (0,1,2): # 3 rondjes
-#         for e in (0,1,2):
-#             x += 1
-#             print(zin, 'c=', c, 'd=', d, 'e=', e, 'x =', x) 
+for c in (0,1,2): # 3 rondjes
+    for d in (0,1,2): # 3 rondjes
+        for e in (0,1,2):
+            x += 1
+            print(zin, 'c=', c, 'd=', d, 'e=', e, 'x =', x) 
 ##############################################################
 # prijs = 6.99
 # while True:
@@ -78,12 +78,12 @@
 # while x < 10:
 #     print(x) # Ik weet nog niet hoevaak # eindeloze loop
 
-while True:
-    try:
-        getal = int(input('Voer een getal!'))
-        break
-    except: ValueError
-    print('Waarschijnlijk begreep je me niet, maar ik bedoelde een getal zoals 6')
+# while True:
+#     try:
+#         getal = int(input('Voer een getal!'))
+#         break
+#     except: ValueError
+#     print('Waarschijnlijk begreep je me niet, maar ik bedoelde een getal zoals 6')
 ##########################################################################################################
 # x = 100
 
@@ -99,6 +99,18 @@ while True:
 #     print()    
 #     print('No more bottles of beer on the wall, no more bottles of beer.')
 #     print('Go to the store and buy some more, 99 bottles of beer on the wall')
+############################################################################################################
+# from msilib.schema import Condition
 
+
+# for x in range(1, 11, 1):
+#     print(type(x))
+#     print(x)
+
+# y = 1
+# while y < 11:
+#     print(y)
+#     y += 1
+###########################################################################################################
 
     
