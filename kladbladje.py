@@ -24,17 +24,17 @@
 # if b == 5:
 #     print('Ik ben Umut')
 ##########################################################
-zin = 'hallo wereld'
-x = 0
+# zin = 'hallo wereld'
+# x = 0
 
-for karakter in zin:
-    print(karakter)
+# for karakter in zin:
+#     print(karakter)
 
-for c in (0,1,2): # 3 rondjes
-    for d in (0,1,2): # 3 rondjes
-        for e in (0,1,2):
-            x += 1
-            print(zin, 'c=', c, 'd=', d, 'e=', e, 'x =', x) 
+# for c in (0,1,2): # 3 rondjes
+#     for d in (0,1,2): # 3 rondjes
+#         for e in (0,1,2):
+#             x += 1
+#             print(zin, 'c=', c, 'd=', d, 'e=', e, 'x =', x) 
 ##############################################################
 # prijs = 6.99
 # while True:
@@ -50,11 +50,11 @@ for c in (0,1,2): # 3 rondjes
 # if 'woord' in 'zin met woorden':
 #     print('woord zit erin')
 
-# richting = 'd'
-# while richting not in 'ab':
-#     richting = input('Welke kant wil je op? a = links b = rechts')
-# if richting not in 'ab':
-#     print('Je gaat de verkeerde kant op.')
+richting = 'd'
+while richting not in 'ab':
+    richting = input('Welke kant wil je op? a = links b = rechts')
+if richting not in 'ab':
+    print('Je gaat de verkeerde kant op.')
 
 # try:
 #     getal = int(input('Voer een getal!'))

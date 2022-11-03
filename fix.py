@@ -14,7 +14,8 @@
 # else:
 #     print('No Party')
 ##########################################################################################################################
+
 name = input('Wat is je naam?')
 compliment = input('Hoeveel complimenten wil je hebben?')
-for x in range(compliment):
+for x in range(x):
     print(f'Je doet het goed {name}!')

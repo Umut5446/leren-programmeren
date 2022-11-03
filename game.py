@@ -38,40 +38,40 @@ if deur == '1':
         
   elif deur1 == '4':
     print('Je hebt een sleutel gevonden!')  
-  deur3 = input('Je ziet nu twee deuren kies uit: 5 of 6.')
-  if deur3 == '5':
-    print('Je hebt niks gevonden dus je gaat maar door.')
-    deur4 = input('Je ziet nu opeens drie deuren, Je raakt nu nog meer gestrest kies uit: 11, 12 of 13.')
-    if deur4 == '11':
-      print('OHH NEE, je ziet die monster achter je. Je pakt je sleutel en steek hem in zijn oog.')
-      print('De monster heeft nu heel veel pijn maar hij gaat nogsteeds achter je aan en jij struikelt over je eigen been.')
-      print('Je bent nu heel bang de monster kijkt je aan een verslaat je!')
-      print('Game Over!')
-      exit()
-    elif deur4 == '12':
-      print('Je hebt een schatkist gevonden en je opent hem met je sleutel. Er zit een granaat in!')
-      print('Je hoor iets op je afkomen dus je verstopt ergens. De monster is langsgekomen zijn mond is open je pakt je granaat en gooit hem in zijn mond.')
-      print('Het granaat ontploft in zijn maag en is nu in kleine stukken.')
-      print('Je kan nu veilig ontsnappen en overleven.')
-      print('Completed!')
-      exit()
-    elif deur4 == '13':
-      print('Je ziet dat de deur opslot is dus je opent hem met je sleutel')
-      eten = input('je ziet eten je twijfelt of je het moet eten kies uit: ja of nee.')
-      if eten == 'ja':
-        print('Je bent nu heel sterk en je gaat vechten met de monster de monster geeft jou een hoek maar je slaat hem terug!')
-        print('Je geeft hem een trap op zijn hoofd! De monster is nu K.O. gegaan je vlucht nu weg en heb het overleefd.')
-        print('Completed!')
-        exit()
-      elif eten == 'nee':
-        print('Je eet het niet op dus je loopt verder maar de monster is daar en je kan hem niet aanvalen.')
+    deur3 = input('Je ziet nu twee deuren kies uit: 5 of 6.')
+    if deur3 == '5':
+      print('Je hebt niks gevonden dus je gaat maar door.')
+      deur4 = input('Je ziet nu opeens drie deuren, Je raakt nu nog meer gestrest kies uit: 11, 12 of 13.')
+      if deur4 == '11':
+        print('OHH NEE, je ziet die monster achter je. Je pakt je sleutel en steek hem in zijn oog.')
+        print('De monster heeft nu heel veel pijn maar hij gaat nogsteeds achter je aan en jij struikelt over je eigen been.')
+        print('Je bent nu heel bang de monster kijkt je aan een verslaat je!')
         print('Game Over!')
         exit()
-  elif deur3 == '6':
-    print('Je loopt door maar opeens val je naar beneden!')
-    print('Je hebt verloren!')
-    print('Game Over!') 
-    exit()
+      elif deur4 == '12':
+        print('Je hebt een schatkist gevonden en je opent hem met je sleutel. Er zit een granaat in!')
+        print('Je hoor iets op je afkomen dus je verstopt ergens. De monster is langsgekomen zijn mond is open je pakt je granaat en gooit hem in zijn mond.')
+        print('Het granaat ontploft in zijn maag en is nu in kleine stukken.')
+        print('Je kan nu veilig ontsnappen en overleven.')
+        print('Completed!')
+        exit()
+      elif deur4 == '13':
+        print('Je ziet dat de deur opslot is dus je opent hem met je sleutel')
+        eten = input('je ziet eten je twijfelt of je het moet eten kies uit: ja of nee.')
+        if eten == 'ja':
+          print('Je bent nu heel sterk en je gaat vechten met de monster de monster geeft jou een hoek maar je slaat hem terug!')
+          print('Je geeft hem een trap op zijn hoofd! De monster is nu K.O. gegaan je vlucht nu weg en heb het overleefd.')
+          print('Completed!')
+          exit()
+        elif eten == 'nee':
+          print('Je eet het niet op dus je loopt verder maar de monster is daar en je kan hem niet aanvalen.')
+          print('Game Over!')
+          exit()
+    elif deur3 == '6':
+      print('Je loopt door maar opeens val je naar beneden!')
+      print('Je hebt verloren!')
+      print('Game Over!') 
+      exit()
 
 elif deur == '2':
   print('Je hebt een mes gevonden.')

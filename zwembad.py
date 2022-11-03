@@ -17,6 +17,4 @@ print(f'totaal:               {totaal_prijs}')
 
 
 afstand = ''
-if afstand > str(50):
-    print('prijs per km is 2.05')
-
+if afstand > 50:

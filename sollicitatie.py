@@ -24,7 +24,7 @@ gewicht = int(input('Wat is uw lichaamsgewicht in hele kg?'))
 certificaat = input('Heeft u een certificaat: Overleven met gevaarlijk personeel? J/N')
 ervaring = input('Met welke van de drie heeft u praktijkervaring? kies uit dieren_dresuur, jongleren of acrobatiek.')
 if ervaring == 'geen':
-    raise NameError('Waarom solliciteer je als je geen ervaring heb!')
+    raise NameError('Waarom solliciteer je als je geen ervaring hebt!')
 dieren_dresuur = 0
 jongleren = 0
 acrobatiek = 0
