@@ -35,7 +35,7 @@
 #         for e in (0,1,2):
 #             x += 1
 #             print(zin, 'c=', c, 'd=', d, 'e=', e, 'x =', x) 
-##############################################################
+#############################################################
 # prijs = 6.99
 # while True:
 #     try:
@@ -50,11 +50,11 @@
 # if 'woord' in 'zin met woorden':
 #     print('woord zit erin')
 
-richting = 'd'
-while richting not in 'ab':
-    richting = input('Welke kant wil je op? a = links b = rechts')
-if richting not in 'ab':
-    print('Je gaat de verkeerde kant op.')
+# richting = 'd'
+# while richting not in 'ab':
+#     richting = input('Welke kant wil je op? a = links b = rechts')
+# if richting not in 'ab':
+#     print('Je gaat de verkeerde kant op.')
 
 # try:
 #     getal = int(input('Voer een getal!'))
@@ -72,9 +72,9 @@ if richting not in 'ab':
 # # for element uit verzameling: #vooraf bekende grootte
 # # Voor iedere leerling uit klas 22a2
 # # voor iedere letter uit een string
-# for c in 'zin':
-#     print(c)
-# x = 10
+for c in 'zin':
+    print(c)
+x = 10
 # while x < 10:
 #     print(x) # Ik weet nog niet hoevaak # eindeloze loop
 
@@ -112,5 +112,8 @@ if richting not in 'ab':
 #     print(y)
 #     y += 1
 ###########################################################################################################
+# antwoord = input('Voer ja in')
+# while antwoord != 'ja':
+#     antwoord = input('Voer ja in')
 
     

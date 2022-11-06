@@ -37,7 +37,12 @@ if deur == '1':
         exit()
         
   elif deur1 == '4':
-    print('Je hebt een sleutel gevonden!')  
+    print('Je hebt een sleutel gevonden!') 
+    pakken = input('Wil je de sleutel opakken kiest uit: ja of nee.') 
+    if pakken == 'nee':
+      print('Je pakt de sleutel niet op!')
+    elif pakken == 'ja':
+      print('Je pakt de sleutel!')
     deur3 = input('Je ziet nu twee deuren kies uit: 5 of 6.')
     if deur3 == '5':
       print('Je hebt niks gevonden dus je gaat maar door.')
@@ -68,10 +73,16 @@ if deur == '1':
           print('Game Over!')
           exit()
     elif deur3 == '6':
-      print('Je loopt door maar opeens val je naar beneden!')
-      print('Je hebt verloren!')
-      print('Game Over!') 
-      exit()
+      print('Je loopt nu naar de deur maar het is gesloten!')
+      sleutel = input('Heb jij je sleutel opgepakt? kies uit: ja of nee.')
+      if sleutel == 'nee':
+        print('Je kan nu niet meer door!')
+      elif sleutel == 'ja':
+        print('Je kan nu de deur openen!') 
+        print('Je loopt door maar opeens val je naar beneden!')
+        print('Je hebt verloren!')
+        print('Game Over!') 
+        exit()
 
 elif deur == '2':
   print('Je hebt een mes gevonden.')
