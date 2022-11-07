@@ -67,14 +67,14 @@
 # if '1' in '123456':
 #     print('Er zit 1 in')
 # ###############################################################################################
-# for x in (0,1,2):
-#     print(x)
+for x in (0,1,2):
+    print(x)
 # # for element uit verzameling: #vooraf bekende grootte
 # # Voor iedere leerling uit klas 22a2
 # # voor iedere letter uit een string
-for c in 'zin':
-    print(c)
-x = 10
+# for c in 'zin':
+#     print(c)
+# x = 10
 # while x < 10:
 #     print(x) # Ik weet nog niet hoevaak # eindeloze loop
 
