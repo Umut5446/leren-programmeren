@@ -17,12 +17,12 @@
 
 # print(minuten_string)
 #  #############################
-# a = 3
-# if a == 8:
-#     b = 5
-# print(a)
-# if b == 5:
-#     print('Ik ben Umut')
+a = 3
+if a == 8:
+    b = 5
+print(a)
+if b == 5:
+    print('Ik ben Umut')
 ##########################################################
 # zin = 'hallo wereld'
 # x = 0
@@ -67,9 +67,9 @@
 # if '1' in '123456':
 #     print('Er zit 1 in')
 # ###############################################################################################
-for x in (0,1,2):
-    print(x)
-# # for element uit verzameling: #vooraf bekende grootte
+# for x in (0,1,2):
+#     print(x)
+# # # for element uit verzameling: #vooraf bekende grootte
 # # Voor iedere leerling uit klas 22a2
 # # voor iedere letter uit een string
 # for c in 'zin':
