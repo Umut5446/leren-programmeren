@@ -17,12 +17,12 @@
 
 # print(minuten_string)
 #  #############################
-a = 3
-if a == 8:
-    b = 5
-print(a)
-if b == 5:
-    print('Ik ben Umut')
+# a = 3
+# if a == 8:
+#     b = 5
+# print(a)
+# if b == 5:
+#     print('Ik ben Umut')
 ##########################################################
 # zin = 'hallo wereld'
 # x = 0
@@ -107,13 +107,34 @@ if b == 5:
 #     print(type(x))
 #     print(x)
 
-# y = 1
-# while y < 11:
-#     print(y)
-#     y += 1
+y = 1
+while y < 11:
+    print(y)
+    y += 1
 ###########################################################################################################
 # antwoord = input('Voer ja in')
 # while antwoord != 'ja':
 #     antwoord = input('Voer ja in')
+##################################################
+# for x in range(1000,100,-1):
+#     print(x)
+#####################################
+# for x in range(-100,2):
+#     print(x)
+##########################################
+# for t in range(1,11):
+#     print('+++++',t,'+++++')
+#     for c in range(1,11):
+#         print (c * t)    
+########################################
+# sum = 0
+# for c in range(5):
+#   sum = sum + c
+# print(c)
 
-    
+# print(sum)
+######################################
+# end = 100
+# for c in range(1,end):
+#     print(c)
+#     end = 50

@@ -1,10 +1,10 @@
-from pickletools import string1
-zin = input('hallo')
-zin2 = 'a'
-for (c) in zin ():
-    zin2 += c
-    print(c)
-######################################
+# from pickletools import string1
+# zin = input('hallo')
+# zin2 = 'a'
+# for (c) in zin ():
+#     zin2 += c
+#     print(c)
+# ######################################
 
 # teller = 0
 # antwoord = ''
@@ -46,6 +46,19 @@ for (c) in zin ():
 
 # print(decrypted_zin)
 #############################################################################################################################################################
-   
+grootste = 0
+kleinste = 1000
+aantal_deelbaar_drie = 0
+for x in range(10): 
+  getal = int(input('voer een getal inboven de (0 en de 1000).'))
+  if getal > grootste:
+    grootste = getal
+  if getal < kleinste:
+    kleinste = getal
+  
+  if getal % 3 == 0:
+    aantal_deelbaar_drie = aantal_deelbaar_drie + 1
 
- 
+print(f'Het grootste getal is:{grootste}')
+print(f'Het kleinste getal is:{kleinste}')
+print(f'Aantal deelbaar door 3 (zonder rest):{aantal_deelbaar_drie} ') 
