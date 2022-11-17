@@ -20,9 +20,9 @@ elif actie == 'k':
 else:
         zin = 'volgorde(k):' + str(getal1) + ' , ' + str(getal2)    
 else:
-        zin = 'volgorde(g):' + str(getal1) + ' , ' + str(getal2)
+       zin = 'volgorde(g):' + str(getal1) + ' , ' + str(getal2)
 
 
-    print(zin)
+   print(zin)
 if actie != 'k' and actie != 'g':
    print(antwoord)

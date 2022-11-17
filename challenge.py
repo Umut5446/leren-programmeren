@@ -91,21 +91,10 @@
 #     if dag_van_week == 'zondag':
 #         break
 ####################################################################################
-x = input('Tot welke dag moet ik printen?')
-for x in (1,2,3,4):
-    print(x)
-    if x == 'maandag':
+dagen_van_week = ('ma','di','wo','do','vr','za','zo')
+dag_stoppen = input('Tot welke dag moet ik printen?')
+for dag in dagen_van_week:
+    print(dag)
+    if dag == dag_stoppen:
        break
-    if x == 'dinsdag':
-        break
-    if x == 'woensdag':
-        break
-    if x == 'donderdag':
-        break
-    if x == 'vrijdag':
-        break
-    if x == 'zaterdag':
-        break
-    if x == 'zondag':
-        break
-   
+     

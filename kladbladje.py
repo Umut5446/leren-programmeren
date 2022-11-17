@@ -107,14 +107,14 @@
 #     print(type(x))
 #     print(x)
 
-y = 1
-while y < 11:
-    print(y)
-    y += 1
+# y = 1
+# while y < 11:
+#     print(y)
+#     y += 1
 ###########################################################################################################
-# antwoord = input('Voer ja in')
-# while antwoord != 'ja':
-#     antwoord = input('Voer ja in')
+antwoord = input('Voer ja in')
+while antwoord != 'ja':
+    antwoord = input('Voer ja in')
 ##################################################
 # for x in range(1000,100,-1):
 #     print(x)
