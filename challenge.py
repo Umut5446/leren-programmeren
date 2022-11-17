@@ -46,19 +46,66 @@
 
 # print(decrypted_zin)
 #############################################################################################################################################################
-grootste = 0
-kleinste = 1000
-aantal_deelbaar_drie = 0
-for x in range(10): 
-  getal = int(input('voer een getal inboven de (0 en de 1000).'))
-  if getal > grootste:
-    grootste = getal
-  if getal < kleinste:
-    kleinste = getal
+# grootste = 0
+# kleinste = 1000
+# aantal_deelbaar_drie = 0
+# for x in range(10): 
+#   getal = int(input('voer een getal inboven de (0 en de 1000).'))
+#   if getal > grootste:
+#     grootste = getal
+#   if getal < kleinste:
+#     kleinste = getal
   
-  if getal % 3 == 0:
-    aantal_deelbaar_drie = aantal_deelbaar_drie + 1
+#   if getal % 3 == 0:
+#     aantal_deelbaar_drie = aantal_deelbaar_drie + 1
 
-print(f'Het grootste getal is:{grootste}')
-print(f'Het kleinste getal is:{kleinste}')
-print(f'Aantal deelbaar door 3 (zonder rest):{aantal_deelbaar_drie} ') 
+# print(f'Het grootste getal is:{grootste}')
+# print(f'Het kleinste getal is:{kleinste}')
+# print(f'Aantal deelbaar door 3 (zonder rest):{aantal_deelbaar_drie} ') 
+############################################################################################
+#vraag 2 woorden, geef vervolgens aan welke letters in beide woorden voorkomen.
+# bijv: aapje 
+#############################################################################################
+# dag_van_week = input('Tot welke dag moet ik printen?')
+
+# while True:
+#     print('maandag')
+#     if dag_van_week == 'maandag':
+#         break
+#     print('dinsdag')
+#     if dag_van_week == 'dinsdag':
+#         break
+#     print('woensdag')
+#     if dag_van_week == 'woensdag':
+#         break
+#     print('donderdag')
+#     if dag_van_week == 'donderdag':
+#         break
+#     print('vrijdag')
+#     if dag_van_week == 'vrijdag':
+#         break
+#     print('zaterdag')
+#     if dag_van_week == 'zaterdag':
+#         break
+#     print('zondag')
+#     if dag_van_week == 'zondag':
+#         break
+####################################################################################
+x = input('Tot welke dag moet ik printen?')
+for x in (1,2,3,4):
+    print(x)
+    if x == 'maandag':
+       break
+    if x == 'dinsdag':
+        break
+    if x == 'woensdag':
+        break
+    if x == 'donderdag':
+        break
+    if x == 'vrijdag':
+        break
+    if x == 'zaterdag':
+        break
+    if x == 'zondag':
+        break
+   
