@@ -91,10 +91,110 @@
 #     if dag_van_week == 'zondag':
 #         break
 ####################################################################################
-dagen_van_week = ('ma','di','wo','do','vr','za','zo')
-dag_stoppen = input('Tot welke dag moet ik printen?')
-for dag in dagen_van_week:
-    print(dag)
-    if dag == dag_stoppen:
-       break
-     
+# dagen_van_week = ('ma','di','wo','do','vr','za','zo')
+# dag_stoppen = input('Tot welke dag moet ik printen?')
+# for dag in dagen_van_week:
+#     print(dag)
+#     if dag == dag_stoppen:
+#        break
+##############################################################################
+# mijnlijst = [5,12,19,27,3,25]     
+# print(mijnlijst)
+##########################################################################
+# mijn_zin = 'hallo dit is mijn zin'
+# mijn_zin += '.'
+# for c in mijn_zin:
+#     print(c)
+##########################################
+# mijn_eerste_tuple = (1, 2, 3, 4)
+# mijn_eerste_lijst = [1, 2, 3, 4]
+# mijn_eerste_lijst.append(9)
+# mijn_eerste_lijst.remove(3)
+# print(mijn_eerste_lijst)
+
+# for x in mijn_eerste_tuple:
+#     print(x)
+    
+# for x in mijn_eerste_lijst:
+#     print(x)
+###########################################
+# antwoorden = []
+
+# for x in range(1,11):
+#     antwoorden.append(x * 15)
+
+# print(antwoorden[-1])
+#######################################
+# namen_lijst = []
+# naam = input('Voer een naam in, of quit')
+# while naam != 'quit':
+#     namen_lijst.append(naam)
+# print(namen_lijst)
+#################################################
+# #1
+# mijn_lijst = [5, 12, 19, 27, 3]
+# print(mijn_lijst)
+
+# #2
+# mijn_lijst.append(25)
+# print(mijn_lijst)
+
+# #3
+# print(len(mijn_lijst))
+
+# #4
+# mijn_lijst.append(12)
+# print(mijn_lijst)
+# mijn_lijst.remove(12)
+# print(mijn_lijst)
+
+# #5
+# mijn_lijst.pop(0) 
+# print(mijn_lijst)
+
+# #6
+# mijn_lijst.insert(0,36)
+# print(mijn_lijst)
+
+# #13
+# teller = 0
+# mijn_lijst = [1, 'aap', 2, 'apen', 3, 'watermeloen', 15, 27]
+# for e in mijn_lijst:
+#     typ = str(type(e))
+#     if typ == "<class ' 'int'>":
+#         teller += 1
+# print(teller)
+##################################################################################
+#1
+getal = int(input('Kies een getal.'))
+
+for x in range(1, 14):
+   print(f'{x} x {getal} = {x * getal}')
+
+#2
+mijn_lijst = [5, 12, 19, 27, 3]
+print(mijn_lijst)
+
+#3
+mijn_lijst.append(25)
+print(mijn_lijst)
+
+#4
+print(len(mijn_lijst))
+
+#5
+mijn_lijst.remove(12)
+print(mijn_lijst)
+
+#6
+mijn_lijst.remove(5)
+print(mijn_lijst)
+
+#7
+mijn_lijst.insert(0, 36)
+print(mijn_lijst)
+
+#8
+for x in(mijn_lijst):
+    x = mijn_lijst + x
+    print(f'{x}={mijn_lijst}')
