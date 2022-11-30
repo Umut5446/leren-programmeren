@@ -195,6 +195,5 @@ mijn_lijst.insert(0, 36)
 print(mijn_lijst)
 
 #8
-for x in(mijn_lijst):
-    x = mijn_lijst + x
+for x in(mijn_lijst): 
     print(f'{x}={mijn_lijst}')

@@ -19,3 +19,5 @@
 # compliment = input('Hoeveel complimenten wil je hebben?')
 # for x in range(x):
 #     print(f'Je doet het goed {name}!')
+#######################################################################
+# for woord in ('Umut', 'Goedemiddag','''')

@@ -5,7 +5,6 @@ robotArm.speed = 2
 
 # Jouw python instructies zet je vanaf hier:
 for y in range(5):
-    print(y)
     robotArm.moveRight() 
     for x in range(6):
         robotArm.grab()
