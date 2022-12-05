@@ -6,8 +6,7 @@ robotArm.speed = 2
 # Jouw python instructies zet je vanaf hier:
 teller = 4
 robotArm.grab()
-for x in range(9):
-    robotArm.moveRight() 
+for x in range(9): robotArm.moveRight() 
 robotArm.drop() 
 for x in range(5): robotArm.moveLeft()
 for x in range(1):
