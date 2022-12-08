@@ -22,28 +22,26 @@ while True:
             geraden = 0
             print("Score = ", score)
         
-        if raad < 0:
+        elif raad < 0:
             print("Lager!")
 
-        if raad > getal:
+        elif raad > getal:
             print("Lager!")
             geraden += 1
-        if y < 20:
-            print("Je bent heel warm!")
-        if y < 50:
-            print("Je bent warm!")
-        if raad < getal:
+            if y < 20:
+                print("Je bent heel warm!")
+            elif y < 50:
+                print("Je bent warm!")
+        elif raad < getal:
             print("Hoger!")
             geraden += 1
-        if y < 20:
+            if y < 20:
                 print("Je bent heel  warm!")
-        if y < 50:
+            elif y < 50:
                 print("Je bent warm!")
-        else:
-            pass 
+        
         if geraden == 10:
             print("Score = ", score)
-            print(getal)
             getal = random.randint(1, 1000)
             ronde += 1
             vraag = input("Nog een getal raden? Y/N ").lower()
