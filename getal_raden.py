@@ -8,18 +8,19 @@ getal = random.randint(1, 1000)
 
 while True:
     if ronde == 20:
-        print("Eindescoer = ", score)
+        print("Eindescore = ", score)
         break
     
     while True:
-        raad = int(input("Raad het getal\n"))
-        y = getal - raad
+        raad = int(input("Raad het getal tussen de 1 en 1000."))
+        x = getal - raad
 
         if raad == getal:
             print("Goed geraden!")
             score += 1
             ronde += 1
             geraden = 0
+            getal = random.randint(1, 1000)
             print("Score = ", score)
         
         elif raad < 0:
@@ -28,16 +29,16 @@ while True:
         elif raad > getal:
             print("Lager!")
             geraden += 1
-            if y < 20:
+            if x < 20 and x >= 0:
                 print("Je bent heel warm!")
-            elif y < 50:
+            elif x < 50 and x >= 20:
                 print("Je bent warm!")
         elif raad < getal:
             print("Hoger!")
             geraden += 1
-            if y < 20:
-                print("Je bent heel  warm!")
-            elif y < 50:
+            if x < 20 and x >= 0:
+                print("Je bent heel warm!")
+            elif x < 50 and x >= 20:
                 print("Je bent warm!")
         
         if geraden == 10:

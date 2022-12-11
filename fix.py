@@ -62,12 +62,41 @@
 
 # print(thisdict)
 
-car = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
+# car = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
 
-x = car.setdefault("model", "Bronco")
+# x = car.setdefault("model", "Bronco")
 
-print(x)
+# print(x)
+##############################################################
+# bij een list kan je het veranderen en bij een tuple niet
+##############################################################
+# programma wat om namen vraagt, om leeftijden vraagt.
+# dit opslaat in een dict en vervolgens de hoogste leeftijd print.
+mijn_namen_lijst = {}
+
+while True:
+    naam = input('Wat is je naam? (stop om te stoppen)')
+    
+    if naam == 'stop':
+        break
+    if naam in mijn_namen_lijst:
+        if input('Wilt u updaten? ja/nee') != 'ja':
+            continue
+    
+    leeftijd = int(input('Wat is je leeftijd?'))
+    if leeftijd in mijn_namen_lijst.values():
+        print('Let op er zit al iemand in die zo oud is!')
+        for n, l in mijn_namen_lijst.items():
+            if l == leeftijd:
+                break
+        print(f'{n} ia al zo oud!')
+        if input('Toch doorgaan? ja/nee') != 'ja':
+            continue
+
+    # mijn_namen_lijst[naam] = leeftijd
+    mijn_namen_lijst.update({naam : leeftijd})
+    print(mijn_namen_lijst)
