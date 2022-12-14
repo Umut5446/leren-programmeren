@@ -166,34 +166,35 @@
 # print(teller)
 ##################################################################################
 #1
-getal = int(input('Kies een getal.'))
+# getal = int(input('Kies een getal.'))
 
-for x in range(1, 14):
-   print(f'{x} x {getal} = {x * getal}')
+# for x in range(1, 14):
+#    print(f'{x} x {getal} = {x * getal}')
 
-#2
-mijn_lijst = [5, 12, 19, 27, 3]
-print(mijn_lijst)
+# #2
+# mijn_lijst = [5, 12, 19, 27, 3]
+# print(mijn_lijst)
 
-#3
-mijn_lijst.append(25)
-print(mijn_lijst)
+# #3
+# mijn_lijst.append(25)
+# print(mijn_lijst)
 
-#4
-print(len(mijn_lijst))
+# #4
+# print(len(mijn_lijst))
 
-#5
-mijn_lijst.remove(12)
-print(mijn_lijst)
+# #5
+# mijn_lijst.remove(12)
+# print(mijn_lijst)
 
-#6
-mijn_lijst.remove(5)
-print(mijn_lijst)
+# #6
+# mijn_lijst.remove(5)
+# print(mijn_lijst)
 
-#7
-mijn_lijst.insert(0, 36)
-print(mijn_lijst)
+# #7
+# mijn_lijst.insert(0, 36)
+# print(mijn_lijst)
 
-#8
-for x in(mijn_lijst): 
-    print(f'{x}={mijn_lijst}')
+# #8
+# for x in(mijn_lijst): 
+#     print(f'{x}={mijn_lijst}')
+#######################################################################################

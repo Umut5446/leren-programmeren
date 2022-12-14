@@ -76,27 +76,40 @@
 ##############################################################
 # programma wat om namen vraagt, om leeftijden vraagt.
 # dit opslaat in een dict en vervolgens de hoogste leeftijd print.
-mijn_namen_lijst = {}
+# mijn_namen_dict = {}
 
-while True:
-    naam = input('Wat is je naam? (stop om te stoppen)')
+# while True:
+#     naam = input('Wat is je naam? (stop om te stoppen)')
     
-    if naam == 'stop':
-        break
-    if naam in mijn_namen_lijst:
-        if input('Wilt u updaten? ja/nee') != 'ja':
-            continue
+#     if naam == 'stop':
+#         break
+#     if naam in mijn_namen_dict:
+#         if input('Wilt u updaten? ja/nee') != 'ja':
+#             continue
     
-    leeftijd = int(input('Wat is je leeftijd?'))
-    if leeftijd in mijn_namen_lijst.values():
-        print('Let op er zit al iemand in die zo oud is!')
-        for n, l in mijn_namen_lijst.items():
-            if l == leeftijd:
-                break
-        print(f'{n} ia al zo oud!')
-        if input('Toch doorgaan? ja/nee') != 'ja':
-            continue
+#     leeftijd = int(input('Wat is je leeftijd?'))
+#     if leeftijd in mijn_namen_dict.values():
+#         print('Let op er zit al iemand in die zo oud is!')
+#         for n, l in mijn_namen_dict.items():
+#             if l == leeftijd:
+#                 break
+#         print(f'{n} is al zo oud!')
+#         if input('Toch doorgaan? ja/nee') != 'ja':
+#             continue
 
-    # mijn_namen_lijst[naam] = leeftijd
-    mijn_namen_lijst.update({naam : leeftijd})
-    print(mijn_namen_lijst)
+#     # mijn_namen_lijst[naam] = leeftijd
+#     mijn_namen_dict.update({naam : leeftijd})
+
+#     print(mijn_namen_dict)
+
+# leeftijd_lijst = list(mijn_namen_dict.values())
+# namen_lijst = list(mijn_namen_dict.keys())
+# print(leeftijd_lijst)
+# print(namen_lijst[leeftijd_lijst.index(max(leeftijd_lijst))])
+###############################################################################################
+from fruitmand import fruitmand
+ 
+for fruit in fruitmand:
+    print(type(fruit))
+    print(fruit[round])
+    print(fruit)
