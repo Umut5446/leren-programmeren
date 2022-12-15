@@ -14,12 +14,7 @@ for z in range(1,6):
   for x in range(teller -1):
    robotArm.moveLeft()
   teller -= 2
-# robotArm.grab()
-# for x in range(7):
-#     robotArm.moveRight()
-# robotArm.drop()
-# for x in range(6):
-#     robotArm.moveLeft()
+
   
 # Na jouw code wachten tot het sluiten van de window:
 robotArm.wait()

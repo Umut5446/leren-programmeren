@@ -2,5 +2,5 @@ x = 30
 
 while x >= 0:
     print(x)
-    x -= 1
+    x -= 2
 print('go')
