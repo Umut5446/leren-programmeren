@@ -4,15 +4,16 @@ robotArm = RobotArm('exercise 10')
 robotArm.speed = 2
 
 # Jouw python instructies zet je vanaf hier:
-for x in range(4):
-    robotArm.grab()
-    for x in range(5): robotArm.moveRight()
-    robotArm.drop()
-    for x in range(4): robotArm.moveLeft()
-robotArm.grab()
-for x in range(5): robotArm.moveRight()
-robotArm.drop()
+teller = 9
 
+for z in range(1,6):
+  robotArm.grab()
+  for x in range(teller):
+   robotArm.moveRight()
+  robotArm.drop()
+  for x in range(teller -1):
+   robotArm.moveLeft()
+  teller -= 2
 # robotArm.grab()
 # for x in range(7):
 #     robotArm.moveRight()
