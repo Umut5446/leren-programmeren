@@ -19,9 +19,12 @@ if change > 0: # Als hij wat terug moet geven boven de 0 is voert hij de code hi
       print('return maximal', nrCoins, 'coins of', coinValue, 'cent!' ) # Hier print hij het maximaal aantal munten van bijvoorbeeld 50 cent dat je kan terug geven.
       nrCoinsReturned = int(input('How many coins of ' + str(coinValue) +  ' cent did you return? ')) # Hier vraagt hij hoeveel munten van een soort dat je terug hebt gegeven.
       change -= nrCoinsReturned * coinValue # Hier berekent hij hoeveel je nog moet terug geven.
-
      
-
+      returnTicket += str(nrCoinsReturned)
+      returnTicket += 'x '
+      returnTicket += str(coinValue)
+      returnTicket += ' euro munt teruggegven.'
+       
 # comment on code below: Als de coinValue bijvoorbeeld 5 is dan wordt hij 2 nadat je de vraag beantwoord.
     if coinValue == 500:
       coinValue = 200
@@ -48,4 +51,5 @@ if change > 0: # Als hij wat terug moet geven boven de 0 is voert hij de code hi
 if change > 0: # Als je nog niet alles terug hebt gegeven print hij de code eronder van hoeveel hij niet terug gaf. Als je wel alles terug gaf print hij welke munten je terug gaf.
   print('Change not returned: ', str(change) + ' cents')
 else:
+  print(returnTicket)
   print('done')

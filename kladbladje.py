@@ -16,14 +16,14 @@
 # minuten = int(minuten_string)
 
 # print(minuten_string)
-#  #############################
+########################################################################################################
 # a = 3
 # if a == 8:
 #     b = 5
 # print(a)
 # if b == 5:
 #     print('Ik ben Umut')
-##########################################################
+#######################################################################################################
 # zin = 'hallo wereld'
 # x = 0
 
@@ -35,7 +35,7 @@
 #         for e in (0,1,2):
 #             x += 1
 #             print(zin, 'c=', c, 'd=', d, 'e=', e, 'x =', x) 
-#############################################################
+#######################################################################################################
 # prijs = 6.99
 # while True:
 #     try:
@@ -46,7 +46,7 @@
 
 # bedrag = hoeveel_pizza * prijs 
 # print(bedrag)
-########################################################################################
+#######################################################################################################
 # if 'woord' in 'zin met woorden':
 #     print('woord zit erin')
 
@@ -115,25 +115,25 @@
 # antwoord = input('Voer ja in')
 # while antwoord != 'ja':
 #     antwoord = input('Voer ja in')
-##################################################
+###############################################################
 # for x in range(1000,100,-1):
 #     print(x)
-#####################################
+###############################################################
 # for x in range(-100,2):
 #     print(x)
-##########################################
+###############################################################
 # for t in range(1,11):
 #     print('+++++',t,'+++++')
 #     for c in range(1,11):
 #         print (c * t)    
-########################################
+###############################################################
 # sum = 0
 # for c in range(5):
 #   sum = sum + c
 # print(c)
 
 # print(sum)
-######################################
+################################################################
 # end = 100
 # for c in range(1,end):
 #     print(c)
@@ -288,7 +288,7 @@
 
 # else:
 #     print('U mag niet gaan rijden.')
-###################################################################
+#########################################################################################
 # getal = 5
 # tekst = 'goeiemorgen' + str(getal)
 # print(tekst)
@@ -329,7 +329,7 @@
 #  if antwoord in ('ja', 'nee'):
 #     print('Het is goed.')
 #     break
-######################################################
+#######################################################################
 # mijn_dict = {
 #     123456789: 'Jouke  Corbijn',
 #     123456788: 'Jan Janssen',
@@ -362,9 +362,9 @@
 # x = car.setdefault("model", "Bronco")
 
 # print(x)
-##############################################################
+####################################################################################
 # bij een list kan je het veranderen en bij een tuple niet
-##############################################################
+######################################################################################
 # programma wat om namen vraagt, om leeftijden vraagt.
 # dit opslaat in een dict en vervolgens de hoogste leeftijd print.
 # mijn_namen_dict = {}
@@ -412,20 +412,37 @@
 #     print('Hallo 3')
 ####################################################
 #vraagt een getal aan de gebruiker en geeft deze terug.
-def vraag_een_getal(vraag: str)-> int: # betekent definier = maak aan
-    while True:
-        try:
-           getal = int(input(vraag))
-           break
-        except ValueError:
-            print('Je moet wel een getal invullen!')
-            continue
-    return getal
+# def vraag_een_getal(vraag: str)-> int: # betekent definier = maak aan
+#     while True:
+#         try:
+#            getal = int(input(vraag))
+#            break
+#         except ValueError:
+#             print('Je moet wel een getal invullen!')
+#             continue
+#     return getal
 
-leeftijd = vraag_een_getal('Voer leeftijd in:')
-geboortejaar = vraag_een_getal('Voer geboortejaar in:')
-geboortemaand = vraag_een_getal('Voer geboortemaand in:')
-geboortedag = vraag_een_getal('Voer geboortedag in:')
+# leeftijd = vraag_een_getal('Voer leeftijd in:')
+# geboortejaar = vraag_een_getal('Voer geboortejaar in:')
+# geboortemaand = vraag_een_getal('Voer geboortemaand in:')
+# geboortedag = vraag_een_getal('Voer geboortedag in:')
 
-print(leeftijd)
- 
+# print(leeftijd)
+#########################################################################
+# antwoord = input('Wil je iets invoeren').lower()
+# print(antwoord)
+#############################################################################
+naam = input('Wat is je naam?')
+print(f'hallo {naam}')
+
+# def naam(vraag: int)-> str:
+#     while True:
+#         try:
+#             naam = input('Wat is je naam')
+#             break
+#         except ValueError:
+#             print('!:')
+#             continue
+#     return naam
+
+# antwoord = naam('Voer AAP in:').lower
