@@ -432,17 +432,14 @@
 # antwoord = input('Wil je iets invoeren').lower()
 # print(antwoord)
 #############################################################################
-naam = input('Wat is je naam?')
-print(f'hallo {naam}')
+# naam = input('Wat is je naam?')
+# print(f'hallo {naam}')
+################################################################
+def berat(n: int)-> str:
+    zin = f'hallo {n}'
+    return zin
 
-# def naam(vraag: int)-> str:
-#     while True:
-#         try:
-#             naam = input('Wat is je naam')
-#             break
-#         except ValueError:
-#             print('!:')
-#             continue
-#     return naam
-
-# antwoord = naam('Voer AAP in:').lower
+vraag = 'Hoe heet je'
+naam = input(vraag)
+antwoord = berat(naam)
+print(antwoord)

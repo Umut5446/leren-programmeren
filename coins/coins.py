@@ -23,7 +23,7 @@ if change > 0: # Als hij wat terug moet geven boven de 0 is voert hij de code hi
       returnTicket += str(nrCoinsReturned)
       returnTicket += 'x '
       returnTicket += str(coinValue)
-      returnTicket += ' euro munt teruggegven.'
+      returnTicket += ' euro munt teruggegeven'  
        
 # comment on code below: Als de coinValue bijvoorbeeld 5 is dan wordt hij 2 nadat je de vraag beantwoord.
     if coinValue == 500:
