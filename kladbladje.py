@@ -435,11 +435,28 @@
 # naam = input('Wat is je naam?')
 # print(f'hallo {naam}')
 ################################################################
-def berat(n: int)-> str:
-    zin = f'hallo {n}'
-    return zin
+# def berat(n: int)-> str:
+#     zin = f'hallo {n}'
+#     return zin
 
-vraag = 'Hoe heet je'
-naam = input(vraag)
-antwoord = berat(naam)
-print(antwoord)
+# vraag = 'Hoe heet je'
+# naam = input(vraag)
+# antwoord = berat(naam)
+# print(antwoord)
+###########################################################
+# waarom functies?
+# hergebruik eigen of ander pgm
+# logica te verbergen
+
+# naam           input parm             output
+def vraag_om_letter(vraag: str) -> str:
+    print('Ik roep de functies aan')
+    while True:
+        letter = input(vraag)
+        if len(letter) > 1:
+            print('Je moet wel 1 letter invoeren!')
+        else:
+            return letter
+
+mijn_letter = vraag_om_letter('Voer een letter in:')
+print(mijn_letter)

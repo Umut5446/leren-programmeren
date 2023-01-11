@@ -12,6 +12,7 @@ while True:
         break
     
     while True:
+        print(getal)
         raad = int(input("Raad het getal tussen de 1 en 1000."))
         x = getal - raad
 
@@ -37,7 +38,7 @@ while True:
             print("Hoger!")
             geraden += 1
             if x < 20 and x >= 0:
-                print("Je bent heel warm!")
+                print("Je bent heel warm!") 
             elif x < 50 and x >= 20:
                 print("Je bent warm!")
         
