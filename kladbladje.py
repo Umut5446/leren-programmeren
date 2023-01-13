@@ -461,19 +461,21 @@
 # mijn_letter = vraag_om_letter('Voer een letter in:')
 # print(mijn_letter)
 ############################################################
-auto_merken = ('Opel', 'Mercedes', 'Volkswagen', 'Audi')
-kleuren = ('rood', 'geel', 'blauw', 'paars', 'grijs')
-brochure = []
+# auto_merken = ('Opel', 'Mercedes', 'Volkswagen', 'Audi')
+# kleuren = ('rood', 'geel', 'blauw', 'paars', 'grijs')
+# brochure = []
 
-# opel in rood
-# opel in geel
-# ....
-# Mercedes in rood
-# mercedes in geel
+# # opel in rood
+# # opel in geel
+# # ....
+# # Mercedes in rood
+# # mercedes in geel
 
-for merk in auto_merken:
-    for kleur in kleuren:
-        auto_in_kleur = merk + ' in ' + kleur
-        brochure.append(auto_in_kleur)
+# for merk in auto_merken:
+#     for kleur in kleuren:
+#         auto_in_kleur = merk + ' in ' + kleur
+#         brochure.append(auto_in_kleur)
 
-print(auto_in_kleur)
+# print(auto_in_kleur)
+###################
+print(abs(-6))
