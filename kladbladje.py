@@ -478,4 +478,58 @@
 
 # print(auto_in_kleur)
 ###################
-print(abs(-6))
+# print(abs(-6))
+####################################################
+# Hier in define en call je een function.
+#
+# De function moet een string teruggeven waarin staat 'Hello, naam, goed gedaan.'
+# na of tijdens de aanroep print je de string.
+
+
+# stappenplan functies
+# 1: nadenken over de functie van de functie.
+# 2: nadenken over de naam.
+# 
+# De functie geeft een string met de meegegeven naam.
+# def maak_string_op() -> str:
+#     de_string = 'Hallo naam, goed gedaan!'
+#     return de_string
+
+# mijn_zin = maak_string_op() # dit is een functionaanroep.
+# print(mijn_zin)
+
+
+
+# def bereken_btw_over_bedrag(bedrag: float, btw_percentage:int) -> float:
+#     bedrag_inc = (bedrag *(100 + btw_percentage)) / 100
+#     return round(bedrag_inc, 2)
+
+# bedrag_exclusief = 100
+# bedrag_inclusief = bereken_btw_over_bedrag(bedrag_exclusief, 21)
+
+# print(bedrag_inclusief)
+
+
+# def bereken_btw_over_bedrag(bedrag: float, btw_percentage:int) -> float:
+#     bedrag_inc = (bedrag *(100 + btw_percentage)) / 100
+#     return round(bedrag_inc, 2)
+
+# regels_excl = [63.15, 52.25]
+# regels_incl = []
+
+# for el in regels_excl:
+#     regels_incl.append(bereken_btw_over_bedrag(el, 21))
+# print(regels_incl)
+#############################################################################
+# def vraag_naam_leeftijd() -> dict:
+#     dict 
+##########################################################################
+# range(v,t, s) van tot start grote
+########################################
+# begint bij 5 vermenigvuldigt met drie tot 1000 is bereikt
+def keer_drie(getal: int, max: int) -> int:
+    if getal >= max:
+        return getal
+    else:
+        getal *= 3
+        return keer_drie(getal, max) 
