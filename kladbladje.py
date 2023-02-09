@@ -527,9 +527,34 @@
 # range(v,t, s) van tot start grote
 ########################################
 # begint bij 5 vermenigvuldigt met drie tot 1000 is bereikt
-def keer_drie(getal: int, max: int) -> int:
-    if getal >= max:
-        return getal
-    else:
-        getal *= 3
-        return keer_drie(getal, max) 
+# def keer_drie(getal: int, max: int) -> int:
+#     if getal >= max:
+#         return getal
+#     else:
+#         getal *= 3
+#         return keer_drie(getal, max) 
+########################################################################
+# def get_integer(vraag: str) -> int:
+#     while True:
+#         invoer = input(vraag)
+#         try:
+#             getal = int(invoer)
+#             break
+#         except ValueError:
+#             print('voer een getal in!')
+
+#     return getal 
+# ###################################################################
+# from handige_functies import *
+
+# getal = get_getal('voer getal 1 in:')
+############################################################
+# def mijn_berekening(getal_1: int, getal_2: int):
+#     variabele_getal = 7
+#     return variabele_getal
+
+# rek_1 = 2
+# rek_2 = 3
+# nieuw_getal = mijn_berekening(2,3)
+# mijn_berekening(rek_1, rek_2)
+########################################################

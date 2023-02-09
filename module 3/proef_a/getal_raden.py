@@ -14,7 +14,7 @@ while True:
     while True:
         print(getal)
         raad = int(input("Raad het getal tussen de 1 en 1000."))
-        x = abs(getal - raad)
+        verschil_raden = abs(getal - raad)
        
         
         if raad == getal:
@@ -24,21 +24,15 @@ while True:
             geraden = 0
             getal = random.randint(1, 1000)
             print("Score = ", score)
-    
-
-        elif raad > getal:
-            print("Lager!")
+        else:
+            if raad > getal:
+                print("lager")
+            else:
+                print("lager") 
             geraden += 1
-            if x < 20 and x >= 0:
+            if verschil_raden < 20:  
                 print("Je bent heel warm!")
-            elif x < 50 and x >= 20:
-                print("Je bent warm!")
-        elif raad < getal:
-            print("Hoger!")
-            geraden += 1
-            if x < 20 and x >= 0:
-                print("Je bent heel warm!") 
-            elif x < 50 and x >= 20:
+            elif verschil_raden < 50 and verschil_raden >= 20:
                 print("Je bent warm!")
         
         if geraden == 10:
@@ -50,6 +44,6 @@ while True:
                 exit()
             else:
                 geraden = 0
-                continue
+
  
     
