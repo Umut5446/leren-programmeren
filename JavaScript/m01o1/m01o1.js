@@ -14,7 +14,7 @@ if (gewenste_aantal_autos > 120){;
 console.log(aantal_verdiepingen);
 
 let tekst = 'hallo' + aantal_verdiepingen + 'gaat';
-let antwoord = 'voor zoveel autos' + gewenste_aantal_autos + 'heb je zoveel verdiepingen nodig' + aantal_verdiepingen;
+let antwoord = 'voor zoveel autos' + gewenste_aantal_autos + 'heb je zoveel verdiepingen' + aantal_verdiepingen + 'nodig';
 document.getElementById("antwoord").innerText = antwoord;
 
 console.log("Om het gewenste aantal autos kwijt te kunnen heb ik x verdiepingen nodig.")
