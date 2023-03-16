@@ -558,3 +558,29 @@
 # nieuw_getal = mijn_berekening(2,3)
 # mijn_berekening(rek_1, rek_2)
 ########################################################
+# import requests
+
+# APP_ID = 
+# url = 
+# response = requests.get(url)
+
+# # omzetten naar Json
+# json_response = response.json()
+# print(type(json_response))
+# print(json_response)
+
+# Toon een weerbericht op het scherm (als output), gebruik hier de response vaar
+# bijv.: 'In Dordrecht: clear, de temperatuur is 15 graden Celsius.'
+###################################################################################
+spel = 24.95
+korting = 0.4
+aantal = int(input('Hoeveel spellen wil je inkopen.'))
+
+inkoopprijs_spel = spel * (1 - korting)
+totaal_inkoop = inkoopprijs_spel * aantal
+
+print('inkoopprijs spellen: ' + str(totaal_inkoop))
+print(inkoopprijs_spel)
+
+eerste_leverancier = (1 + (aantal - 1) * 0.25)
+print(eerste_leverancier + totaal_inkoop)

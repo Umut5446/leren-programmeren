@@ -16,15 +16,17 @@
         spaceShip.loadLevel(8);
         //Eigen acties
         spaceShip.run(function () {
-            // code  start`
-            for (let i = 0; i < 2; i++)
-                for (let i = 0; i < 8; i++)
-                  spaceShip.moveForward();
-                  spaceShip.rotateLeft();
-                  
-
-
-            // code  einde
+            // code  start` 
+            let aantal = 8;
+            for (let i = 0; i < 8; i++){
+                for (let i = 0; i < aantal; i++){
+                    spaceShip.moveForward();
+                }   
+                spaceShip.rotateLeft();
+                aantal--;
+            }
+            spaceShip.moveForward();
+             // code  einde
         });
     </script>
 </body>
